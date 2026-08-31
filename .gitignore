@@ -1,0 +1,5 @@
+/bootstrap
+/database
+/vendor
+/public
+.env
