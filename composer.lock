@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "992f79e0e765445703af04d681171661",
+    "content-hash": "0a7704fd6dd2a2e87b57518cb530344d",
     "packages": [
         {
             "name": "brick/math",
@@ -1467,6 +1467,69 @@
             "time": "2026-02-06T14:12:35+00:00"
         },
         {
+            "name": "laravel/ui",
+            "version": "v4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "ff27db15416c1ed8ad9848f5692e47595dd5de27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/ff27db15416c1ed8ad9848f5692e47595dd5de27",
+                "reference": "ff27db15416c1ed8ad9848f5692e47595dd5de27",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^9.21|^10.0|^11.0|^12.0|^13.0",
+                "illuminate/filesystem": "^9.21|^10.0|^11.0|^12.0|^13.0",
+                "illuminate/support": "^9.21|^10.0|^11.0|^12.0|^13.0",
+                "illuminate/validation": "^9.21|^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.0",
+                "symfony/console": "^6.0|^7.0|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.35|^8.15|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.3|^10.4|^11.5|^12.5|^13.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "support": {
+                "source": "https://github.com/laravel/ui/tree/v4.6.3"
+            },
+            "time": "2026-03-17T13:41:52+00:00"
+        },
+        {
             "name": "league/commonmark",
             "version": "2.10.0",
             "source": {
@@ -2027,16 +2090,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.8.6",
+            "version": "v3.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "be5729e9accfa9255a28d82f7759a3cc4be0f079"
+                "reference": "ff019f8f6f48b7a2315922e45a70ad8fd75d1934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/be5729e9accfa9255a28d82f7759a3cc4be0f079",
-                "reference": "be5729e9accfa9255a28d82f7759a3cc4be0f079",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/ff019f8f6f48b7a2315922e45a70ad8fd75d1934",
+                "reference": "ff019f8f6f48b7a2315922e45a70ad8fd75d1934",
                 "shasum": ""
             },
             "require": {
@@ -2091,7 +2154,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.8.6"
+                "source": "https://github.com/livewire/livewire/tree/v3.8.7"
             },
             "funding": [
                 {
@@ -2099,7 +2162,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-24T15:02:02+00:00"
+            "time": "2026-08-31T15:40:46+00:00"
         },
         {
             "name": "monolog/monolog",
